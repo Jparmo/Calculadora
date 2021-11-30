@@ -13,24 +13,24 @@
       <section id="btns">
         <div id="btn">%</div>
         <div id="btn">CE</div>
-        <div id="btn">C</div>
+        <div id="btn" onclick="deletLastNum()">C</div>
         <div id="btn" onclick="borrar()">DELETE</div>
-        <div id="btn" onclick="pintar(7)">7</div>
-        <div id="btn" onclick="pintar(8)">8</div>
-        <div id="btn" onclick="pintar(9)">9</div>
-        <div id="btn">/</div>
-        <div id="btn" onclick="pintar(4)">4</div>
-        <div id="btn" onclick="pintar(5)">5</div>
-        <div id="btn" onclick="pintar(6)">6</div>
-        <div id="btn">x</div>
-        <div id="btn" onclick="pintar(3)">3</div>
-        <div id="btn" onclick="pintar(2)">2</div>
-        <div id="btn" onclick="pintar(1)">1</div>
-        <div id="btn">-</div>
-        <div id="btn" onclick="pintar(0)">0</div>
-        <div id="btn" onclick="pintar('.')">.</div>
+        <div id="btn" onclick="displayScreen(7)">7</div>
+        <div id="btn" onclick="displayScreen(8)">8</div>
+        <div id="btn" onclick="displayScreen(9)">9</div>
+        <div id="btn" onclick="operar('/')">/</div>
+        <div id="btn" onclick="displayScreen(4)">4</div>
+        <div id="btn" onclick="displayScreen(5)">5</div>
+        <div id="btn" onclick="displayScreen(6)">6</div>
+        <div id="btn" onclick="operar('*')">x</div>
+        <div id="btn" onclick="displayScreen(3)">3</div>
+        <div id="btn" onclick="displayScreen(2)">2</div>
+        <div id="btn" onclick="displayScreen(1)">1</div>
+        <div id="btn" onclick="operar('-')">-</div>
+        <div id="btn" onclick="displayScreen(0)">0</div>
+        <div id="btn" onclick="displayScreen('.')">.</div>
         <div id="btn">=</div>
-        <div id="btn" onclick="pintar('+')">+</div>
+        <div id="btn" onclick="operar('+')">+</div>
       </section>
     </main>
 
